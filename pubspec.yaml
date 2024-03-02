@@ -38,9 +38,6 @@ dependencies:
   get: ^4.6.6
   flutter_gemini: ^2.0.0
   permission_handler: ^11.1.0
-  path_provider: ^2.1.1
-  file_picker: ^6.1.1
-  tflite_flutter: ^0.10.4
   camera: ^0.10.5+9
   image: ^4.1.7
   image_picker: ^1.0.7
