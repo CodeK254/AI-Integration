@@ -39,11 +39,11 @@ class _MyHomePageState extends State<MyHomePage> {
                   PopupMenuItem(
                     value: 0,
                     onTap: () async {
-                      File? file = await ImportController.loadFile();
-                      setState(() {
-                        picked = file;
-                      });
-                      chatController.chats.value = ImportController.setChats(picked!, chatController.chats);
+                      // File? file = await ImportController.loadFile();
+                      // setState(() {
+                      //   picked = file;
+                      // });
+                      // chatController.chats.value = ImportController.setChats(picked!, chatController.chats);
                     },
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
